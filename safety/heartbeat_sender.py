@@ -28,6 +28,6 @@ try:
         if seq % 25 == 0:
             print(f'送信中...{seq}')
         seq += 1
-        timw.sleep(INTERVAL)
+        time.sleep(INTERVAL)
 except KeyboardInterrupt:
     print('\n stoped to send')
