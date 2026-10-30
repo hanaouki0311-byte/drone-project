@@ -29,5 +29,5 @@ try:
             print(f'送信中...{seq}')
         seq += 1
         timw.sleep(INTERVAL)
-except KeybordInterrupt:
+except KeyboardInterrupt:
     print('\n stoped to send')
